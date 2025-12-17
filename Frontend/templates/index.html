@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8" />
+<title>Hindi News AI Desk</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+<div class="container">
+<h1>Hindi News AI Desk</h1>
+
+
+<textarea id="content" placeholder="यहाँ समाचार पेस्ट करें"></textarea>
+
+
+<input type="text" id="location" placeholder="लोकेशन लिखें (जैसे: जयपुर)" />
+
+
+<select id="mode">
+<option value="print">Print News</option>
+<option value="digital">Digital / SEO News</option>
+</select>
+
+
+<button onclick="rewriteNews()">Rewrite News</button>
+
+
+<pre id="output"></pre>
+</div>
+
+
+<script src="/static/script.js"></script>
+</body>
+</html>
